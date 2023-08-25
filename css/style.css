@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    max-height: 800px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 1px;
+    margin-bottom: 50px;
+    z-index: 5;
+}
+
+.header-descuento {
+    background-color: #D1891C;
+    margin: 0px;
+}
+
+.header-heroes {
+    background-color: #00669f;
+    margin: 0px;
+}
+
+main {
+    padding: 5px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    padding: 5px 20px;
+    margin: 0px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 65px;
+}
+
+h4 {
+    padding: 5px 20px;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+    margin: 0px;
+    padding: 20px 30px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    max-width: 27%;
+    height: 520px;
+    border: 1px solid #c7c7c7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 10px 5px #c7c7c7;
+}
+
+i {
+    position: absolute;
+    left: 30px;
+    bottom: 160px;
+    z-index: 3;
+}
+
+.fondo-card-batman {
+    position: relative;
+    height: 200px;
+    background-image: url('../img/card-batman.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.fondo-card-harley {
+    position: relative;
+    height: 200px;
+    background-image: url('../img/card-hq.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.logo-card {
+    position: absolute;
+    border-radius: 100px;
+    left: 116px;
+    top: 130px;
+    z-index: 2;
+}
+
+button {
+    display: block;
+    background-color: #01669d;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #00669f;
+    margin-top: 50px;
+}
+
+.footer-text {
+    color: white;
+    padding: 10px 20px;
+}
